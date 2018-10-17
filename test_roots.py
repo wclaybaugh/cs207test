@@ -6,7 +6,7 @@ def test_quadroots_result():
 	
 def test_quadroots_types():
 	with pytest.raises(TypeError):
-		roots.quad_roots("", "green", "hi")
+		roots.quad_roots("", "blue", "hi")
 		
 def test_quadroots_zerocoeff():
 	with pytest.raises(ValueError):
